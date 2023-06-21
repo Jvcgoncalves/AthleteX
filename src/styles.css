@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-size: 18px;
+   font-family:'inter',sans-serif;
+}
+/* Configurações do container */
+.container{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+font-size: 18px;
+font-family: Helvetica;
+background-color: #e0dfdf;
+color: #212529;
+}
+/* Cabeçalho */
+.header{   
+display: flex;
+padding: 20px 50px;
+align-items: center;
+justify-content: space-between;
+position: static;
+}
+.logo{
+width: 80px;
+cursor: pointer;
+}
+.btns{
+display: flex;
+gap: 15px;
+}
+.button{
+padding: 10px;
+background-color: transparent;
+border: 3px solid transparent;
+text-transform: uppercase;
+font-weight: 500;
+font-size: 18px;
+cursor: pointer;
+}
+.button:hover{
+border-bottom: 3px solid #1C2227;
+transition: 0.3s;
+}
+.content{
+padding: 5px 50px;
+}
+/* Frase de efeito e botão de direcionamento para o app */
+.main-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+.introducao{
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex: 1 0 auto;
+padding: 40px 20px;
+gap: 10px;
+}
+.img-app{
+grid-area: item2;
+width:  600px;
+height: 400px;
+border-radius: 3px;
+}
+#nameLogo{
+text-align: center;
+font-size: 65px;
+font-weight: 700;
+}
+.text{
+text-align: center;
+font-size: 23px;
+width: 60%;
+margin: auto;
+padding-bottom: 25px;
+}
+.button-main-content{
+margin: auto;
+width: 380px;
+height: 90px;
+border-radius: 15px;
+cursor: pointer;
+border: 0 transparent;
+background-color: #bed812;
+font-weight: 700;
+font-size: 22px;
+}
+.button-main-content:hover{
+transform: scale(1.05);
+transition: 0.3s ease-in-out;
+}
+/* Conteúdo de features */
+.feature-text{
+font-size: 18px;
+margin: 35px 20px;
+padding-left: 5px;
+text-transform: uppercase;
+}
+.iten-style-1{
+padding: 25px;
+display: flex;
+flex-direction: row-reverse;
+gap: 15px;
+}
+.iten-style-2{
+padding: 25px;
+display: flex;
+gap: 15px;
+}
+.feature-img{
+width: 480px;
+height: 400px;
+}
+.feature-description{
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.feature-description p{
+width: 75%;
+line-height: 1.3;
+font-size: 22px;
+}
+.feature-title{
+font-size: 30px;
+width: 70%;
+}
+.feature-text-2{
+text-align: end;
+font-size: 18px;
+margin: 35px 20px;
+padding-right: 358px;
+text-transform: uppercase;
+}
+.feature-description-2{
+display: flex;
+width: 70%;
+flex-direction: column ;
+align-items: end;
+gap: 15px;
+}
+.feature-description-2 p{
+width: 70%;
+line-height: 1.3;
+font-size: 22px;
+}
+.feature-title-2{
+font-size: 30px;
+width: 70%;
+}
+/* Área para os vídeos */
+#videos{
+flex: 1 0 auto;
+background-color: #3329FF;
+padding: 50px 0 20px 0;
+margin: 100px 0 0 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.btns-videos{
+display: flex;
+gap: 30px;
+}
+.change-videos-btns{
+padding: 20px;
+background-color: transparent;
+border: transparent;
+cursor: pointer;
+color: #e0dfdf;
+font-size: 25px;
+}
+/* Rodapé */
+.footer{
+background-color: #e0dfdf;
+display: flex;
+justify-content: space-around;
+padding: 80px 0 0 40px;
+height: 285px;
+}
+.footer-itens{
+padding-bottom: 20px;
+font-weight: 600;
+}
+.logo-footer{
+width: 150px;
+height: 150px;
+cursor: pointer;
+}
+.names{
+display: flex;
+flex-direction: column;
+gap: 2px;
+}
+.interact-footer{
+border: 2px solid transparent;
+cursor: pointer;
+}
+.interact-footer:hover{
+border-bottom: 2px solid #1C2227;
+transition: 0.3s;
+}
+.social-midia{
+display: flex;
+flex-direction: column;
+}
+.insta-twitter{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.social{
+width: 40px;
+cursor: pointer;
+}
+.video-container{
+transition: opacity 0.5s ease;
+}
+.video-container.hide {
+opacity: 0;
+}
