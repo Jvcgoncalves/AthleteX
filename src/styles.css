@@ -229,71 +229,71 @@ transition: opacity 0.5s ease;
 opacity: 0;
 }
 @media(max-width:850px){
-   .feature-img{
-      width: 80%;
-      height: 80%;
-   }
-   .iten-style-1{
-      flex-direction: column;
-   }
-   .iten-style-2{
-      flex-direction: column;
-   }
-   .videosToPlay{
-      width:500px;
-   }
+.feature-img{
+width: 80%;
+height: 80%;
+}
+.iten-style-1{
+flex-direction: column;
+}
+.iten-style-2{
+flex-direction: column;
+}
+.videosToPlay{
+width:500px;
+}
 }
 @media(max-width:600px){
-   .container{
-      min-height: 100vh;
-   }
-   #nameLogo{
-      font-size: 30px;
-   }
-   .videosToPlay{
-      width: 350px;
-   }
-   .button-main-content{
-      width: 80%;
-      padding: 10px;
-   }
-   .header{
-      flex-direction: column;
-   }
-   .footer{
-      flex-direction: column;
-      flex: 1 0 auto;
-      align-items: center;
-      text-align: center;
-   }
-   .btns-videos{
-      gap:0;
-   }
-   .feature-title-2{
-      font-size: 25px;
-   }
-   .feature-title{
-      font-size: 25px;
-   }
-   .feature-description p{
-      font-size: 18px;
-   }
-   .feature-description-2 p{
-      font-size: 18px;
-   }.insta-twitter{
-      justify-content: center;
-   }
+.container{
+min-height: 100vh;
+}
+#nameLogo{
+font-size: 30px;
+}
+.videosToPlay{
+width: 350px;
+}
+.button-main-content{
+width: 80%;
+padding: 10px;
+}
+.header{
+flex-direction: column;
+}
+.footer{
+flex-direction: column;
+flex: 1 0 auto;
+align-items: center;
+text-align: center;
+}
+.btns-videos{
+gap:0;
+}
+.feature-title-2{
+font-size: 25px;
+}
+.feature-title{
+font-size: 25px;
+}
+.feature-description p{
+font-size: 18px;
+}
+.feature-description-2 p{
+font-size: 18px;
+}.insta-twitter{
+justify-content: center;
+}
 }
 @media (max-width: 440px){
-   .videosToPlay{
-      width: 200px;
-      height: 250px;
-   }
-   .feature-text-2{
-      padding: 0;
-   }
-   .button-main-content{
-      width: 180px;
-      padding: 10px;
-   }
+.videosToPlay{
+width: 200px;
+height: 250px;
+}
+.feature-text-2{
+padding: 0;
+}
+.button-main-content{
+width: 180px;
+padding: 10px;
+}
 }
